@@ -1,5 +1,5 @@
 <?php
-mysql_connect("72.27.62.126","d-colley");
+mysql_connect("localhost","admin");
 mysql_select_db("world");
 
 $LOOKUP = $_REQUEST['lookup'];
